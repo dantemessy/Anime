@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+    color: rgb(77, 54, 54)
+    
+}
+
+ nav ul li {
+ display: inline;
+ text-decoration: none;
+ margin: 50px;
+}   
+
+nav {
+    text-align: center;
+
+}
+
+article section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+article section h2 {
+    text-align: center;
+}
+article section p {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+footer p {
+    text-align: center;
+    padding:30px;
+    background: black;
+    color: white;
+}
+
+
+
