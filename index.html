@@ -3,7 +3,7 @@
 
 <head>
     <title>Anime</title>
-    <link rel="stylesheet" href="css/indexstyle.css" >
+    <link rel="stylesheet" href="css/indexstyle.css">
 </head>
 
 
@@ -19,24 +19,32 @@
             </ul>
         </nav>
 
-        
+
     </header>
-    
-    
-    <button type="button"
-    onclick="document.getElementById('demo').innerHTML = Date()">
-    Click me to display Date and Time.</button>
-    
+
+
+    <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+        Click me to display Date and Time.</button>
+
     <p id="demo"></p>
-    
+
 
     <main>
-            <script src="js/hello.js"></script>
-            <script src="js/response.js"></script>
+        
+        <script src="js/hello.js"></script>
+        <script>document.write('<p>' +showGreeting()+ '</p>')
+        </script>
+
+        <script src="js/response.js"></script>
+        <script>document.write('<h1>' +responseImge()+'</h1>')
+        </script>
+
+
 
         <article>
             <section>
-                <img src="https://lh3.googleusercontent.com/I2KvVQ5rXw9FWrrw_yl-RsEcBJpRRA8jkMOOBLHSI2giJhO2wLnb7qdMEhgIYA2QxFw" >
+                <img
+                    src="https://lh3.googleusercontent.com/I2KvVQ5rXw9FWrrw_yl-RsEcBJpRRA8jkMOOBLHSI2giJhO2wLnb7qdMEhgIYA2QxFw">
             </section>
             <section>
                 <h2>Latest Anime News</h2>
@@ -47,7 +55,7 @@
         </article>
     </main>
 
-    
+
 
     <footer>
         <p>Copyrights 2019</p>
