@@ -1,17 +1,40 @@
 'use strict'
-var answer = prompt("Do You Watch Anime (if Yes enter 1 if No enter 2)")
+var answer = prompt("Do You Watch Anime ( Yes or No )")
 var response ;
 var baka ;
+var animeNumber=0;
+var medals= '';
 
-function responseImge(){
-    if (answer == 1 ){
+
+ while (answer !== 'yes' && answer !== 'no' ){
+ answer = prompt("Do You Watch Anime ( Yes or No )")
+ }
+ 
+function responseImge(){    
+    if (answer === 'yes' ){
         response = "You Will Love This Site!"
+    } else if (answer === 'no'){
+        response = "If You Dont Watch it, What are doing Here ??"  
     } else {
-        response = "If You Dont Watch it, What are doing Here ??"
-        // baka = '<img src="https://www.sccpre.cat/mypng/full/247-2478192_png-baka-anime-emoji-for-discord.png" />';  
+        response = "Reload the Page And Try Again"
     }
-    return response;
+    return response ;
+    
 } responseImge();
+
+if(answer === 'yes'){
+
+     animeNumber= prompt("how many did you watch? ")
+
+     for(var i =0; i < animeNumber ; i= i + 1 ){
+         console.log('ansbasb',animeNumber)
+         medals = medals+'<img src="https://cdn0.iconfinder.com/data/icons/rewards-icons/110/Medal-2-128.png" />';
+       
+    } 
+    document.write(medals);
+}
+
+
 
 // if (answer == 1 ){
 //     response = "You Will Love This Site!"  
