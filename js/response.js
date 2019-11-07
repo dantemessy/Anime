@@ -1,5 +1,5 @@
 'use strict'
-var answer = prompt("Do You Watch Anime ( Yes or No )")
+var answer ;
 var response ;
 var baka ;
 var animeNumber=0;
